@@ -398,6 +398,26 @@ body::before {
   margin: 0 0 10px;
 }
 
+.type-card-image,
+.type-hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  margin: 12px 0;
+}
+
+.type-card-image {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.type-hero-image {
+  max-height: 320px;
+  object-fit: cover;
+}
+
 .compare-card ul {
   margin: 16px 0 0;
   padding-left: 18px;
