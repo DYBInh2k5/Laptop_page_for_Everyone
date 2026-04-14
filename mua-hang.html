@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hub mua hàng uy tín: truy cập nhanh trang mua laptop theo từng hãng cho học sinh sinh viên." />
+    <title>Hub mua hàng uy tín</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-1"></div>
+    <div class="ambient ambient-2"></div>
+    <main class="page-shell">
+      <div class="hero">
+        <nav class="topbar">
+          <div class="brand"><span class="brand-mark">PC</span><span class="brand-text">StudyTech</span></div>
+          <div class="nav-links">
+            <a class="nav-link" href="index.html">Trang chủ</a>
+            <a class="nav-link" href="thuong-hieu.html">Theo hãng</a>
+            <a class="nav-link" href="so-sanh-nhanh.html">So sánh nhanh</a>
+            <a class="nav-link" href="nganh-nghe.html">Ngành nghề</a>
+          </div>
+        </nav>
+
+        <section class="page-header">
+          <p class="eyebrow">Hub mua hàng</p>
+          <h1>Mua laptop uy tín theo từng hãng</h1>
+          <p>Trang này gom toàn bộ lối vào trang mua của 8 hãng để bạn không cần tìm thủ công từng nơi.</p>
+          <div class="breadcrumb"><span>Lenovo</span><span>ASUS</span><span>Dell</span><span>HP</span><span>MacBook</span><span>Acer</span><span>MSI</span><span>LG</span></div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <p class="eyebrow">Truy cập nhanh</p>
+            <h2>Chọn hãng bạn muốn mua</h2>
+            <p>Mỗi trang đều có checklist và bộ lọc nơi bán.</p>
+          </div>
+          <div class="hub-controls" id="hub-controls">
+            <input
+              id="hub-search"
+              class="hub-search"
+              type="search"
+              placeholder="Tim theo hang hoac nhu cau: Acer, MacBook, do hoa, tiet kiem..."
+              aria-label="Tim hang mua laptop"
+            />
+            <div class="hub-profiles" role="tablist" aria-label="Loc theo ho so sinh vien">
+              <button class="hub-profile-btn" type="button" data-profile="all">Tat ca</button>
+              <button class="hub-profile-btn" type="button" data-profile="budget">Goi y tiet kiem</button>
+              <button class="hub-profile-btn active" type="button" data-profile="balanced">Goi y can bang</button>
+              <button class="hub-profile-btn" type="button" data-profile="performance">Goi y hieu nang</button>
+            </div>
+            <span class="hub-result" id="hub-result"></span>
+          </div>
+          <div class="model-grid">
+            <article class="model-card hub-brand-card" data-profile="balanced" data-keywords="lenovo thinkpad ideapad yoga can bang ben on dinh"><p class="eyebrow">Lenovo</p><h3>Mua Lenovo uy tín</h3><div class="card-actions"><a class="button secondary" href="lenovo-mua-hang.html">Mở trang mua</a></div></article>
+            <article class="model-card hub-brand-card" data-profile="balanced" data-keywords="asus vivobook zenbook tuf can bang da dung"><p class="eyebrow">ASUS</p><h3>Mua ASUS uy tín</h3><div class="card-actions"><a class="button secondary" href="asus-mua-hang.html">Mở trang mua</a></div></article>
+            <article class="model-card hub-brand-card" data-profile="balanced" data-keywords="dell inspiron vostro xps ben on dinh"><p class="eyebrow">Dell</p><h3>Mua Dell uy tín</h3><div class="card-actions"><a class="button secondary" href="dell-mua-hang.html">Mở trang mua</a></div></article>
+            <article class="model-card hub-brand-card" data-profile="budget balanced" data-keywords="hp pavilion envy victus tiet kiem can bang"><p class="eyebrow">HP</p><h3>Mua HP uy tín</h3><div class="card-actions"><a class="button secondary" href="hp-mua-hang.html">Mở trang mua</a></div></article>
+            <article class="model-card hub-brand-card" data-profile="balanced performance" data-keywords="macbook air pro m1 m2 m3 sang tao lap trinh"><p class="eyebrow">MacBook</p><h3>Mua MacBook uy tín</h3><div class="card-actions"><a class="button secondary" href="macbook-mua-hang.html">Mở trang mua</a></div></article>
+            <article class="model-card hub-brand-card" data-profile="budget" data-keywords="acer aspire swift nitro tiet kiem gia tot"><p class="eyebrow">Acer</p><h3>Mua Acer uy tín</h3><div class="card-actions"><a class="button secondary" href="acer-mua-hang.html">Mở trang mua</a></div></article>
+            <article class="model-card hub-brand-card" data-profile="performance" data-keywords="msi modern katana stealth hieu nang do hoa ky thuat"><p class="eyebrow">MSI</p><h3>Mua MSI uy tín</h3><div class="card-actions"><a class="button secondary" href="msi-mua-hang.html">Mở trang mua</a></div></article>
+            <article class="model-card hub-brand-card" data-profile="balanced" data-keywords="lg gram nhe pin lau di chuyen"><p class="eyebrow">LG</p><h3>Mua LG uy tín</h3><div class="card-actions"><a class="button secondary" href="lg-mua-hang.html">Mở trang mua</a></div></article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer"><p>Hub mua hàng tổng hợp cho học sinh sinh viên, ưu tiên tính rõ ràng và dễ so sánh.</p></footer>
+    <script src="hub-filter.js"></script>
+  </body>
+</html>
