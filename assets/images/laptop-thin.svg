@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Laptop mong nhe">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#12233f"/>
+      <stop offset="1" stop-color="#1f3a66"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="1">
+      <stop offset="0" stop-color="#71d8ff"/>
+      <stop offset="1" stop-color="#ffb86b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg)"/>
+  <rect x="190" y="90" width="420" height="250" rx="14" fill="#0a1224" stroke="#cfe7ff" stroke-opacity="0.35"/>
+  <rect x="210" y="110" width="380" height="210" rx="10" fill="url(#screen)" opacity="0.9"/>
+  <rect x="145" y="345" width="510" height="26" rx="13" fill="#dfe7f5" opacity="0.9"/>
+  <rect x="260" y="350" width="280" height="12" rx="6" fill="#8ca4c6"/>
+  <circle cx="620" cy="120" r="46" fill="#ffffff" fill-opacity="0.06"/>
+  <circle cx="170" cy="390" r="58" fill="#ffffff" fill-opacity="0.05"/>
+</svg>

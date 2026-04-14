@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Laptop hieu nang cao">
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1">
+      <stop offset="0" stop-color="#1a1028"/>
+      <stop offset="1" stop-color="#35204f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg2)"/>
+  <rect x="175" y="85" width="450" height="260" rx="16" fill="#0f0d1a" stroke="#d4c8ff" stroke-opacity="0.4"/>
+  <rect x="195" y="105" width="410" height="220" rx="10" fill="#24153a"/>
+  <polyline points="205,290 260,220 320,255 385,175 450,240 510,190 595,280" fill="none" stroke="#ff6b8a" stroke-width="8"/>
+  <rect x="145" y="350" width="510" height="24" rx="12" fill="#ece6ff" opacity="0.9"/>
+  <rect x="252" y="355" width="296" height="11" rx="5" fill="#8d79b8"/>
+  <circle cx="130" cy="120" r="42" fill="#fff" fill-opacity="0.07"/>
+  <circle cx="670" cy="380" r="62" fill="#fff" fill-opacity="0.05"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="May tinh de ban">
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f202d"/>
+      <stop offset="1" stop-color="#1f364b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg3)"/>
+  <rect x="120" y="85" width="430" height="255" rx="16" fill="#0a1421" stroke="#b7d8f6" stroke-opacity="0.38"/>
+  <rect x="145" y="110" width="380" height="205" rx="10" fill="#163453"/>
+  <rect x="300" y="340" width="70" height="34" rx="8" fill="#b7d8f6"/>
+  <rect x="250" y="370" width="170" height="18" rx="9" fill="#dceaf8"/>
+  <rect x="585" y="110" width="95" height="230" rx="10" fill="#0a1421" stroke="#b7d8f6" stroke-opacity="0.35"/>
+  <circle cx="632" cy="318" r="6" fill="#71d8ff"/>
+  <rect x="595" y="130" width="75" height="14" rx="7" fill="#71d8ff" opacity="0.25"/>
+  <rect x="595" y="152" width="75" height="14" rx="7" fill="#ffb86b" opacity="0.25"/>
+  <circle cx="90" cy="400" r="60" fill="#ffffff" fill-opacity="0.05"/>
+</svg>
